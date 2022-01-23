@@ -1,0 +1,334 @@
+
+.App {
+  text-align: center;
+}
+.Family{
+margin:auto;
+max-width: fit-content;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 1vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.inputstyle{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+* {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+.label {
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 600;
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+.buttonStyle2 {
+  background-color: #f06363;
+  color: white;
+  position: absolute;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 90px;
+  height: 40px;
+  font-size: 18px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 19px;
+  letter-spacing: normal;
+  text-align: center;
+  white-space: nowrap;
+  margin-top:500px;
+  margin-left:2000px
+}
+.container {
+  background-color: #f2f2f2;
+  padding: 20px;
+  
+}
+.center {
+  margin: auto;
+  width: 100%;
+  padding: 10px;
+}
+.vertical-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  height: 80px;
+}
+button:disabled,
+button[disabled]{
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}
+span:disabled,span[disabled]{
+  display: none;
+}
+.Style{
+  -webkit-font-smoothing: antialiased;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 478px;
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 4px;
+  display: block;
+  z-index: 160;
+  box-shadow: inset 0 0 15px 4px rgb(0 0 0 / 6%), 0 0 15px 4px rgb(0 0 0 / 6%);
+}
+.Style1{
+  -webkit-font-smoothing: antialiased;
+  position: relative;
+  box-sizing: border-box;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 48px;
+  background-color: #fff;
+  border: 1px solid #e3e3e3;
+  border-radius: 16px;
+  text-align: left;
+}
+.Style2{
+  -webkit-font-smoothing: antialiased;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.Style3{
+  -webkit-font-smoothing: antialiased;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.Style4{
+  -webkit-font-smoothing: antialiased;
+  text-align: left;
+  position: relative;
+}
+input[type=email], input[type=password], input[type=text] {
+  font-size: 14px;
+}
+.Style5{
+  -webkit-font-smoothing: antialiased;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.Style6{
+  -webkit-font-smoothing: antialiased;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.Style7{
+  -webkit-font-smoothing: antialiased;
+  text-align: left;
+}
+.Style8{
+  -webkit-font-smoothing: antialiased;
+  text-align: left;
+  height: 39px;
+}
+.Style9{
+  -webkit-font-smoothing: antialiased;
+  text-align: left;
+  position: relative;
+  top: 6px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.buttonStyle1{
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.17;
+  letter-spacing: normal;
+  text-align: center;
+  white-space: nowrap;
+  position: relative;
+  cursor: pointer;
+  height: 50px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 25px;
+  border: 0;
+  box-sizing: border-box;
+  display: inline-block;
+  text-decoration: none;
+  width: 100%;
+  color: #fff;
+  background-color: #04aa6d;
+}
+.Style11{
+  -webkit-font-smoothing: antialiased;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  line-height: 19px;
+  padding: 20px;
+  box-sizing: border-box;
+  color: rgba(40,42,53,.65);
+  position: absolute;
+}
+.spanStyle{
+  -webkit-font-smoothing: antialiased;
+  text-align: left;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 600;
+  color: #282a35;
+  font-size: 14px;
+}
+.spanStyle2{
+  -webkit-font-smoothing: antialiased;
+  text-align: left;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 600;
+  color: #3cc55a;
+  font-size: 14px;
+}
+.spanStyle3{
+  -webkit-font-smoothing: antialiased;
+  text-align: left;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 600;
+  color: #c53c48;
+  font-size: 14px;
+}
+.eyeicon{
+  -webkit-font-smoothing: antialiased;
+  text-align: left;
+  cursor: pointer;
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: 600;
+  color: #282a35;
+  font-size: 14px;
+  width: 15;
+  height: 14;
+  bottom: 22px;
+  vertical-align: baseline;
+  right: 0;
+  display: inline-block;
+  margin-right: 4px;
+  position: relative;
+  top: 2px;
+}
+.input1 {
+  -webkit-font-smoothing: antialiased;
+  padding: 14px;
+  margin: 6px 0;
+  border-radius: 4px;
+  border: 1px solid #ced4da;
+  box-sizing: border-box;
+  font-size: 14px;
+  width: 100%;
+}
+.input2 {
+  -webkit-font-smoothing: antialiased;
+  padding: 14px;
+  margin: 6px 0;
+  border-radius: 4px;
+  border: 1px solid #ced4da;
+  box-sizing: border-box;
+  font-size: 14px;
+  width: 100%;
+  block-size: auto;
+}
+input {
+  text-rendering: auto;
+  color: -internal-light-dark(black, white);
+  letter-spacing: normal;
+  word-spacing: normal;
+  line-height: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  appearance: auto;
+  -webkit-rtl-ordering: logical;
+  cursor: text;
+  background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+  margin: 0em;
+  padding: 1px 2px;
+  border-width: 2px;
+  border-style: inset;
+  border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+  border-image: initial;
+}
+input:-internal-autofill-selected {
+  appearance: menulist-button;
+  background-image: none !important;
+  background-color: -internal-light-dark(rgb(232, 240, 254), rgba(70, 90, 126, 0.4)) !important;
+  color: -internal-light-dark(black, white) !important;
+}
+.-fif_input_wrp #current-password, .-fif_input_wrp #new-password, .-fif_input_wrp>input[type=password], .-fif_input_wrp>input[type=text] {
+  width: 100%;
+}

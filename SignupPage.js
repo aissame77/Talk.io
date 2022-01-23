@@ -11,10 +11,6 @@ export default function SignupPage() {
 
   const [getName, setName] = useState(false);
 
-  const ConditionalLink = ({ children, to, condition }) => (!!condition && to)
-      ? <Link to={to}>{children}</Link>
-      : <>{children}</>;
-
   async function handleSignup() {
     setLoading(true);
      try {
@@ -63,7 +59,7 @@ export default function SignupPage() {
         <div className="Style8"></div>
           <div className="Style9">
             <div>
-            <ConditionalLink to="/Messagerie" condition={currentUser}><button className="buttonStyle1" disabled={ loading || currentUser } onClick={handleSignup}>Sign up</button></ConditionalLink>
+            <button className="buttonStyle1" disabled={ loading || currentUser } onClick={handleSignup}>Sign up</button>
             </div>
           </div>
         </div>

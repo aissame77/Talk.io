@@ -10,12 +10,14 @@
 </p>
 
 > React (également connu sous le nom de React.js ou ReactJS) est une bibliothèque JavaScript frontale à code source ouvert permettant de créer des interfaces utilisateur ou des composants d'interface utilisateur. Elle est maintenue par Facebook et une communauté de développeurs individuels et d'entreprises.
+
 Talk.io est une simple et elegante application de chat pour les équipes et amies.
+
 ![talk.io](logo.png?raw=true "logo")
-##Home page
+## Home page
 ![talk.io](home.png?raw=true "home")
-##Diagramme de class
-![talk.io](class_diagram.png?raw=true "home")
+## Diagramme de class
+![talk.io](class_diagram.png?raw=true "class")
 
 ### 🏠 [Homepage](talk.io/index.html)
 
@@ -51,4 +53,3 @@ npm run test
 Give a ⭐️ if this project helped you!
 
 ***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_

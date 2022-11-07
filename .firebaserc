@@ -1,0 +1,7 @@
+{
+  "projects": {
+    "default": "talk-io-64fb6",
+    "talk": "talk-io-64fb6"
+  },
+  "targets": {}
+}
